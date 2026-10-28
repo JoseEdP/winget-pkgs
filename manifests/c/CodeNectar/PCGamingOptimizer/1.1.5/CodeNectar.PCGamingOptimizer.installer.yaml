@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+PackageIdentifier: CodeNectar.PCGamingOptimizer
+PackageVersion: 1.1.5
+InstallerType: nullsoft
+Scope: machine
+ElevationRequirement: elevatesSelf
+InstallModes:
+  - interactive
+  - silent
+UpgradeBehavior: install
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/JoseEdP/pc-gaming-optimizer-releases/releases/download/v1.1.5/PC-Gaming-Optimizer-Setup-1.1.5.exe
+    InstallerSha256: AE16BF22B9EFBF7F8C58E69987C49FE687C202C65367B8D2C76D975F71828B8D
+ManifestType: installer
+ManifestVersion: 1.12.0
